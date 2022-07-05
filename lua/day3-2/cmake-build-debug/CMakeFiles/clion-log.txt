@@ -1,4 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /Users/digitsu/dev/SevenMoreLanguages/lua/day3-2 -B /Users/digitsu/dev/SevenMoreLanguages/lua/day3-2
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/digitsu/dev/SevenMoreLanguages/lua/day3-2
