@@ -1,0 +1,3 @@
+[submodule "src/lua/day3/external/lua"]
+	path = src/lua/day3/external/lua
+	url = https://github.com/lubgr/lua-cmake

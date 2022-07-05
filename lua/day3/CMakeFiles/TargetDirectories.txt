@@ -1,0 +1,6 @@
+/Users/digitsu/dev/SevenMoreLanguages/lua/day3/CMakeFiles/play.dir
+/Users/digitsu/dev/SevenMoreLanguages/lua/day3/CMakeFiles/edit_cache.dir
+/Users/digitsu/dev/SevenMoreLanguages/lua/day3/CMakeFiles/rebuild_cache.dir
+/Users/digitsu/dev/SevenMoreLanguages/lua/day3/external/lua/CMakeFiles/lua.dir
+/Users/digitsu/dev/SevenMoreLanguages/lua/day3/external/lua/CMakeFiles/edit_cache.dir
+/Users/digitsu/dev/SevenMoreLanguages/lua/day3/external/lua/CMakeFiles/rebuild_cache.dir

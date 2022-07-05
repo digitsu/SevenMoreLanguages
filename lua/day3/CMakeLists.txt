@@ -1,0 +1,11 @@
+cmake_minimum_required (VERSION 3.0)
+project (play)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "-std=c++11")
+add_executable (play play.cpp)
+include_directories(AFTER SYSTEM /usr/local/include/lua /usr/local/include/rtmidi)
+add_subdirectory(external/lua)
+find_library(RTMIDI_LIBRARY NAMES rtmidi HINTS "/usr/local/opt/rtmidi/lib")
+target_link_libraries(play PRIVATE lua::lib ${RTMIDI_LIBRARY})
+
