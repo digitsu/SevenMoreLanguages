@@ -129,19 +129,6 @@ play/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/play.dir/build.make CMakeFiles/play.dir/build
 .PHONY : play/fast
 
-#=============================================================================
-# Target rules for targets named lua
-
-# Build rule for target.
-lua: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lua
-.PHONY : lua
-
-# fast build rule for target.
-lua/fast:
-	$(MAKE) $(MAKESILENT) -f external/lua/CMakeFiles/lua.dir/build.make external/lua/CMakeFiles/lua.dir/build
-.PHONY : lua/fast
-
 play.o: play.cpp.o
 .PHONY : play.o
 
@@ -174,7 +161,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lua"
 	@echo "... play"
 	@echo "... play.o"
 	@echo "... play.i"

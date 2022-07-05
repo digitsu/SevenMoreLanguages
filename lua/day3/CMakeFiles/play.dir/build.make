@@ -73,15 +73,15 @@ CMakeFiles/play.dir/play.cpp.o: CMakeFiles/play.dir/flags.make
 CMakeFiles/play.dir/play.cpp.o: play.cpp
 CMakeFiles/play.dir/play.cpp.o: CMakeFiles/play.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/digitsu/dev/SevenMoreLanguages/lua/day3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/play.dir/play.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/play.dir/play.cpp.o -MF CMakeFiles/play.dir/play.cpp.o.d -o CMakeFiles/play.dir/play.cpp.o -c /Users/digitsu/dev/SevenMoreLanguages/lua/day3/play.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/play.dir/play.cpp.o -MF CMakeFiles/play.dir/play.cpp.o.d -o CMakeFiles/play.dir/play.cpp.o -c /Users/digitsu/dev/SevenMoreLanguages/lua/day3/play.cpp
 
 CMakeFiles/play.dir/play.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play.dir/play.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/digitsu/dev/SevenMoreLanguages/lua/day3/play.cpp > CMakeFiles/play.dir/play.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/digitsu/dev/SevenMoreLanguages/lua/day3/play.cpp > CMakeFiles/play.dir/play.cpp.i
 
 CMakeFiles/play.dir/play.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play.dir/play.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/digitsu/dev/SevenMoreLanguages/lua/day3/play.cpp -o CMakeFiles/play.dir/play.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/digitsu/dev/SevenMoreLanguages/lua/day3/play.cpp -o CMakeFiles/play.dir/play.cpp.s
 
 # Object files for target play
 play_OBJECTS = \
@@ -92,7 +92,7 @@ play_EXTERNAL_OBJECTS =
 
 play: CMakeFiles/play.dir/play.cpp.o
 play: CMakeFiles/play.dir/build.make
-play: external/lua/liblua.dylib
+play: /usr/local/opt/lua/lib/liblua.dylib
 play: /usr/local/opt/rtmidi/lib/librtmidi.dylib
 play: CMakeFiles/play.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/digitsu/dev/SevenMoreLanguages/lua/day3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable play"

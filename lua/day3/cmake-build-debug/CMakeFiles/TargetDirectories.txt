@@ -1,0 +1,3 @@
+/Users/digitsu/dev/SevenMoreLanguages/lua/day3-2/cmake-build-debug/CMakeFiles/play.dir
+/Users/digitsu/dev/SevenMoreLanguages/lua/day3-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/digitsu/dev/SevenMoreLanguages/lua/day3-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
